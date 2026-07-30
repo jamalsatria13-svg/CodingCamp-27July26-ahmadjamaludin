@@ -1,0 +1,12 @@
+{
+  "name": "life-dashboard",
+  "version": "1.0.0",
+  "description": "Life Dashboard property-based tests",
+  "private": true,
+  "scripts": {
+    "test": "node tests/theme-manager.test.js"
+  },
+  "dependencies": {
+    "fast-check": "3.22.0"
+  }
+}

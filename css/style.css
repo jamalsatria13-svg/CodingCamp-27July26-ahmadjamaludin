@@ -539,3 +539,113 @@ input {
   max-height: 200px;
   overflow-y: auto;
 }
+
+/* ============================================================
+   Light Theme Overrides
+   ============================================================ */
+[data-theme="light"] {
+  --clr-bg:          #f4f5f7;
+  --clr-surface:     #ffffff;
+  --clr-surface-alt: #eef0f5;
+  --clr-border:      #d0d4e0;
+  --clr-text:        #1a1d27;
+  --clr-text-muted:  #5a6080;
+  --clr-shadow-card: 0 4px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* ============================================================
+   Theme Toggle Button
+   ============================================================ */
+.theme-toggle-btn {
+  position: fixed;
+  top: var(--sp-4);
+  right: var(--sp-4);
+  z-index: 100;
+  font-size: var(--fs-lg);
+  padding: var(--sp-2);
+  border-radius: var(--radius-sm);
+  line-height: 1;
+}
+
+/* ============================================================
+   Duration Row (Timer Card)
+   ============================================================ */
+.duration-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  justify-content: center;
+  margin-bottom: var(--sp-4);
+}
+
+.duration-label {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-muted);
+}
+
+.duration-input {
+  width: 5rem;
+  text-align: center;
+}
+
+.duration-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ============================================================
+   Sort Row (Todo Card)
+   ============================================================ */
+.sort-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+}
+
+.sort-label {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-muted);
+  white-space: nowrap;
+}
+
+.sort-select {
+  padding: var(--sp-1) var(--sp-3);
+  background-color: var(--clr-surface-alt);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-sm);
+  color: var(--clr-text);
+  font-size: var(--fs-sm);
+  font-family: var(--font-base);
+  cursor: pointer;
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: var(--clr-accent);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.25);
+}
+
+/* ============================================================
+   Name Form (Greeting Card)
+   ============================================================ */
+.name-form {
+  display: flex;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+/* ============================================================
+   Inline Field Errors
+   ============================================================ */
+.field-error {
+  font-size: var(--fs-xs);
+  color: var(--clr-danger);
+  margin-top: var(--sp-1);
+  min-height: 1.2em;
+}
+
+.field-error[hidden] {
+  display: none;
+}

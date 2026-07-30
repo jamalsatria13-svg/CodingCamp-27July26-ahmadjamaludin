@@ -4,9 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Life Dashboard</title>
+  <script>
+    (function() {
+      var t = localStorage.getItem('tld_theme');
+      document.documentElement.dataset.theme = (t === 'light') ? 'light' : 'dark';
+    })();
+  </script>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <button id="theme-toggle" class="btn btn-ghost theme-toggle-btn" type="button" aria-label="Switch to light mode">🌙</button>
   <div class="dashboard">
 
     <!-- ===== GREETING WIDGET ===== -->
@@ -14,11 +21,35 @@
       <p id="greeting-text" class="greeting-text">Good Morning</p>
       <p id="time" class="time-display" aria-live="polite" aria-atomic="true">00:00:00</p>
       <p id="date" class="date-display"></p>
+      <form id="name-form" class="name-form" novalidate aria-label="Set display name">
+        <input
+          id="name-input"
+          class="text-input"
+          type="text"
+          placeholder="Enter your name…"
+          aria-label="Your display name"
+          maxlength="50"
+          autocomplete="off"
+        />
+        <button class="btn btn-primary btn-sm" type="submit" aria-label="Set name">Set</button>
+      </form>
     </section>
 
     <!-- ===== FOCUS TIMER ===== -->
     <section id="focus-timer" class="card timer-card" aria-label="Focus timer">
       <h2 class="section-title">Focus Timer</h2>
+      <div class="duration-row">
+        <label for="timer-duration" class="duration-label">Minutes</label>
+        <input
+          id="timer-duration"
+          class="text-input duration-input"
+          type="number"
+          min="1"
+          max="180"
+          value="25"
+          aria-label="Timer duration in minutes"
+        />
+      </div>
       <p id="timer-display" class="timer-display" aria-live="polite" aria-atomic="true">25:00</p>
       <div class="timer-controls" role="group" aria-label="Timer controls">
         <button id="timer-start" class="btn btn-primary" type="button" aria-label="Start timer">Start</button>
@@ -30,6 +61,15 @@
     <!-- ===== TO-DO LIST ===== -->
     <section id="todo-list" class="card todo-card" aria-label="To-do list">
       <h2 class="section-title">To-Do List</h2>
+      <div class="sort-row">
+        <label for="todo-sort" class="sort-label">Sort</label>
+        <select id="todo-sort" class="sort-select" aria-label="Sort tasks by">
+          <option value="creation">Creation order</option>
+          <option value="alpha-asc">A → Z</option>
+          <option value="alpha-desc">Z → A</option>
+          <option value="completed-last">Incomplete first</option>
+        </select>
+      </div>
       <form id="todo-add-form" class="add-form" novalidate aria-label="Add new task">
         <input
           id="todo-input"
@@ -42,6 +82,7 @@
         />
         <button class="btn btn-primary" type="submit" aria-label="Add task">Add</button>
       </form>
+      <p id="todo-add-error" class="field-error" role="alert" aria-live="polite" hidden></p>
       <ul id="todo-list-items" class="todo-items" aria-label="Task list" aria-live="polite">
       </ul>
     </section>

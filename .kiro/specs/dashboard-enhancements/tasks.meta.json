@@ -1,0 +1,707 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "2.3 Write property tests for Theme_Manager": [
+      {
+        "executionId": "92f79f59-f689-4d22-91e8-822d835c09f0",
+        "chatSessionId": "sess_c2fe16c5-3f4e-4a8a-96bb-f92b40c12d36",
+        "timestamp": 1785419144050
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237631
+      },
+      {
+        "executionId": "4b58937e-2162-4598-be73-992c50874d28",
+        "chatSessionId": "sess_a1d8dca7-b925-4d85-b7e8-4d9777e764c7",
+        "timestamp": 1785419720199
+      }
+    ],
+    "1.1 Add `theme`, `name`, `timerDuration`, and `sortOrder` keys to the `KEYS` constant in `LocalStorage_Manager` inside `js/app.js`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237305
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419251098
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419388647
+      }
+    ],
+    "2.1 Add the inline no-flash `<script>` block to `index.html` inside `<head>`, before the `<link rel=\"stylesheet\">` tag": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237439
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419397949
+      }
+    ],
+    "2.2 Add the `Theme_Manager` IIFE module in `js/app.js` (place it after `LocalStorage_Manager` and before `Greeting_Widget`)": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237539
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419402599
+      }
+    ],
+    "3.1 Add the `#theme-toggle` button to `index.html` immediately after `<body>` opens, before the `.dashboard` div": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237711
+      },
+      {
+        "executionId": "4b58937e-2162-4598-be73-992c50874d28",
+        "chatSessionId": "sess_a1d8dca7-b925-4d85-b7e8-4d9777e764c7",
+        "timestamp": 1785419726689
+      }
+    ],
+    "3.2 Add the light-theme CSS rule and all new component styles to `css/style.css`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237796
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419406857
+      }
+    ],
+    "4.1 Add the `Name_Manager` IIFE module in `js/app.js` (place after `Theme_Manager`)": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237847
+      },
+      {
+        "executionId": "4b58937e-2162-4598-be73-992c50874d28",
+        "chatSessionId": "sess_a1d8dca7-b925-4d85-b7e8-4d9777e764c7",
+        "timestamp": 1785419731429
+      }
+    ],
+    "4.3 Add `#name-form` HTML to `index.html` inside the greeting card, below the `.date-display` paragraph": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237912
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420868403
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421455838
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421551341
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421623420
+      }
+    ],
+    "5.1 Add `formatGreeting(hour, name)` pure function inside `Greeting_Widget`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419237977
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420873206
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421460753
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421557540
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421628115
+      }
+    ],
+    "5.2 Add `updateGreeting()` method to `Greeting_Widget`'s public API": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238057
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420880067
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421465967
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421563680
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421633198
+      }
+    ],
+    "5.3 Update `_tick()` inside `Greeting_Widget` to call `formatGreeting(now.getHours(), Name_Manager.getName())` instead of `getGreeting(now.getHours())` when setting `elGreeting.textContent`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238146
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420887019
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421472593
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421569435
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421639160
+      }
+    ],
+    "5.4 Bind the `#name-form` submit event inside `Greeting_Widget.init()` (or a new `Name_Manager.bindForm()` helper called from the entry point)": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238212
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420891968
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421478268
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421575869
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421645390
+      }
+    ],
+    "6. Checkpoint — verify theme and name features": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238277
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421652616
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421657941
+      }
+    ],
+    "7.1 Add the `Timer_Config` IIFE module in `js/app.js` (place after `Name_Manager`, before `Greeting_Widget`)": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238340
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419411229
+      }
+    ],
+    "7.3 Add `#timer-duration` Duration_Input HTML to `index.html` inside the timer card, above the `#timer-display` element": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238397
+      },
+      {
+        "executionId": "4b58937e-2162-4598-be73-992c50874d28",
+        "chatSessionId": "sess_a1d8dca7-b925-4d85-b7e8-4d9777e764c7",
+        "timestamp": 1785419736605
+      }
+    ],
+    "8.1 Replace the hardcoded `INITIAL_SECONDS = 25 * 60` in `Focus_Timer` with a dynamic value sourced from `Timer_Config.getDuration() * 60`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238448
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420899632
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421484176
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421664082
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421743349
+      }
+    ],
+    "8.2 Add `Focus_Timer.setInitialSeconds(seconds)` public method": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238517
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420904319
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421489688
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421669949
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421748302
+      }
+    ],
+    "8.3 Bind the `#timer-duration` input's `'change'` event inside `Focus_Timer.init()`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238579
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420910079
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421494280
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421674510
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421754244
+      }
+    ],
+    "8.4 Update `Focus_Timer._render()` to toggle `_elDuration.disabled = state.running` so the duration input is disabled while the timer is running and re-enabled after stop/reset": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238651
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420916269
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421501958
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421680507
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421759759
+      }
+    ],
+    "9. Checkpoint — verify timer features": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238712
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421772607
+      }
+    ],
+    "10.1 Add `_isDuplicate(description, excludeId)` internal helper inside `Todo_Manager`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238779
+      },
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419415819
+      }
+    ],
+    "10.3 Update `addTask(description)` in `Todo_Manager` to call `_isDuplicate(trimmed, null)` after the empty-check; return `{ type: 'duplicate' }` if a duplicate is found; otherwise continue with existing create logic": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238832
+      },
+      {
+        "executionId": "4b58937e-2162-4598-be73-992c50874d28",
+        "chatSessionId": "sess_a1d8dca7-b925-4d85-b7e8-4d9777e764c7",
+        "timestamp": 1785419741783
+      }
+    ],
+    "10.4 Update `updateTask(id, description)` in `Todo_Manager` to call `_isDuplicate(trimmed, id)` after the empty/not-found checks; return `{ type: 'duplicate' }` if a duplicate is found; otherwise continue with existing update logic": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238932
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420392482
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420816494
+      }
+    ],
+    "11.1 Add `#todo-sort` Sort_Control HTML to `index.html` inside the todo card, between `.section-title` and `#todo-add-form`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419238996
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420396789
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420822350
+      }
+    ],
+    "11.2 Add `#todo-add-error` error placeholder HTML to `index.html` immediately after the `#todo-add-form` closing tag": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239063
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420401216
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420826560
+      }
+    ],
+    "11.3 Add `_sortTasks(tasks, order)` pure helper function inside `Todo_List`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239129
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420405945
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420832343
+      }
+    ],
+    "11.5 Add `_sortOrder` private variable (initialized to `'creation'`) and update `render()` inside `Todo_List` to call `_sortTasks(Todo_Manager.getTasks(), _sortOrder)` and render the sorted result instead of the raw task array": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239195
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420923080
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421507469
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421685928
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421764947
+      }
+    ],
+    "11.6 Bind the sort control inside `Todo_List.init()`: cache `_elSort = document.getElementById('todo-sort')`; on `init()`, read `LocalStorage_Manager.loadSortOrder()` and set `_sortOrder` to the loaded value if it is one of the four valid strings, otherwise `'creation'`; set `_elSort.value = _sortOrder`; add a `'change'` listener that updates `_sortOrder`, calls `LocalStorage_Manager.saveSortOrder(_sortOrder)`, and calls `render()`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239250
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420930057
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421515081
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785421980980
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422036110
+      }
+    ],
+    "12.1 Implement `_showAddError(message)` and `_clearAddError()` inside `Todo_List`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239315
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420934717
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421520936
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785421981928
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422036912
+      }
+    ],
+    "12.2 Update the `#todo-add-form` submit handler inside `Todo_List.init()` to handle the `{ type: 'duplicate' }` return value": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239379
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420941811
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421526132
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785421982615
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422099185
+      }
+    ],
+    "12.3 Update `_exitEditMode(id, save, newValue)` inside `Todo_List` to handle the `{ type: 'duplicate' }` return from `updateTask`": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239433
+      },
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420946995
+      },
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421531271
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785421983563
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422100135
+      }
+    ],
+    "13.1 Update the `DOMContentLoaded` entry point in `js/app.js` to initialize all new modules in the correct order": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239497
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422106681
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422138761
+      }
+    ],
+    "14. Final checkpoint — full regression and integration pass": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419239567
+      },
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422144469
+      }
+    ],
+    "1. Extend LocalStorage_Manager with four new keys": [
+      {
+        "executionId": "f11ebb8c-3ae4-4402-8bc1-089ad71b94d3",
+        "chatSessionId": "sess_552e1dc6-3764-44ec-b659-105da94e1b4c",
+        "timestamp": 1785419388720
+      }
+    ],
+    "10. Extend Todo_Manager with duplicate detection": [
+      {
+        "executionId": "8d4c4e0f-fb40-4282-b873-bff4e0ce881d",
+        "chatSessionId": "sess_e0a27975-6b3e-444b-b6c8-7a5b1d4d69c3",
+        "timestamp": 1785420816560
+      }
+    ],
+    "4. Add Name_Manager module and Name_Input HTML": [
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421623516
+      }
+    ],
+    "5. Extend Greeting_Widget to support Display_Name": [
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421645466
+      }
+    ],
+    "8. Extend Focus_Timer to use Timer_Config": [
+      {
+        "executionId": "f7811786-d79a-4585-9405-d8c6c5b9dc7a",
+        "chatSessionId": "sess_8bfa32ea-08d5-463f-a9c8-189e4163bcc0",
+        "timestamp": 1785421759855
+      }
+    ],
+    "11. Add Sort_Control HTML, extend Todo_List with sort and error display": [
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422036224
+      }
+    ],
+    "12. Add duplicate error display to Todo_List": [
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422100203
+      }
+    ],
+    "13. Wire new modules into the entry point": [
+      {
+        "executionId": "95d1ca6f-b613-4252-8279-b94d6b065f81",
+        "chatSessionId": "sess_f454bc18-5ebe-4177-886e-5eafc63391f9",
+        "timestamp": 1785422138873
+      }
+    ]
+  }
+}
